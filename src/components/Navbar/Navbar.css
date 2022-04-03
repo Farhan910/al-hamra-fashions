@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.navbar-name{
+    margin-left: 60px;
+}
+.navbar-main {
+    margin-right: 60px;
+    margin-top: 20px;
+    
+}
+.navbar-link {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #000;
+    
+}
+.navbar-link:hover {
+    color: pink;
+    transition:0.5s;
+}
