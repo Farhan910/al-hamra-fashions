@@ -1,9 +1,11 @@
 import React from "react";
-import Reviews from "../Reviews/Reviews";
 import "./Home.css";
+import pic from "../../../src/img/image.jpg";
+import HomeReview from "../HomeReview/HomeReview";
 
-const Home = (props) => {
-  const {img} = props.dress;
+const Home = () => {
+  
+  
   return (
     <div>
       <div className="home">
@@ -11,16 +13,20 @@ const Home = (props) => {
           <h1>
             Hi this is AL - HAMRA <br /> FASHION GALLERY
           </h1>
+          
         </div>
 
         <div className="home-right">
-          <img src={img} alt="" />
+          <img src={pic} alt="" />
         </div>
         
       </div>
       <button className="btn">hire me </button>
+      
 
-      <Reviews></Reviews>
+      <HomeReview></HomeReview>
+
+      
     </div>
   );
 };

@@ -1,0 +1,39 @@
+[
+    {
+        "id": "01",
+        "name": "Kelly",
+        "ratings" : "4.5",
+        "img": "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg"
+
+    },
+    {
+        "id": "02",
+        "name": "jonson",
+        "ratings" : "5"
+
+    },
+    {
+        "id": "03",
+        "name": "michel",
+        "ratings" : "4.2"
+
+    },
+    {
+        "id": "04",
+        "name": "BMW",
+        "ratings" : "4.1"
+
+    },
+    {
+        "id": "05",
+        "name": "Robert",
+        "ratings" : "4.7"
+
+    },
+    {
+        "id": "06",
+        "name": "Easton ",
+        "ratings" : "4.6"
+
+    }
+]
