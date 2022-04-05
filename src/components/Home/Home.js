@@ -11,7 +11,7 @@ const Home = () => {
       <div className="home">
         <div>
           <h1 className="home-left">
-            AL - HAMRA <br /> FASHION GALLERY
+            AL-HAMRA <br /> FASHION GALLERY
           </h1>
           <h4 className="container ms-5">This website contains the price of each dress and the rules <br/> of how to order it. We have all kinds of high quality dresses, <br/>  which are not available anywhere else.This dress works really well</h4>
         </div>
