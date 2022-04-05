@@ -1,3 +1,14 @@
 .icon-color{
     color: #ebc44f;
 }
+.card{
+    padding-left: 10px;
+    box-shadow: 1px 1px 20px 5px rgb(216, 210, 210);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.card:hover{
+    box-shadow: 1px 1px 60px 20px rgb(216, 210, 210);
+    transition: 0.5s;
+}

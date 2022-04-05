@@ -5,6 +5,7 @@
 .card{
     border: 1px solid;
     margin: 40px;
+    border-radius:10px
 }
 .card img{
    

@@ -7,30 +7,19 @@
     margin-right: 50px;
 }
 .home-left{
+    margin-top: 200px;
     margin-left: 50px;
     font-weight: 700;
+    font-style: italic;
+    font-size: 70px;
 }
-.btn{
-    color: white;
-    background-color:gray;
-    height: 40px;
-    width: 100px;
-    border-radius: 10px;
-    border:none;
-    display: flex;
-    margin-left: 50px;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.btn:hover{
-    background-color: lightgray;
-    transition: 0.5s;
-    
-   
-}
+
+
 .home-right img{
     width: 450px;
     height: 100%;
     border-radius: 10px;
+}
+.review-container{
+    margin-top: 250px;
 }

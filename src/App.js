@@ -9,6 +9,8 @@ import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -25,8 +27,10 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

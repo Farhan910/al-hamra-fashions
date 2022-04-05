@@ -3,7 +3,8 @@
         "id": "01",
         "name": "Kelly",
         "ratings" : "4.5",
-        "img": "https://i.ibb.co/2WN9jsd/photo-1507003211169-0a1dd7228f2d.jpg"
+        "img": "https://i.ibb.co/2WN9jsd/photo-1507003211169-0a1dd7228f2d.jpg",
+        "reviews" : "The box this comes in is 4 meter by 5 foot "
 
     },
     {
@@ -19,28 +20,32 @@
         "id": "03",
         "name": "michel",
         "ratings" : "4.2",
-        "img" :"https://i.ibb.co/JBf4LKt/Olivier-1500-Trptch.jpg" 
+        "img" :"https://i.ibb.co/JBf4LKt/Olivier-1500-Trptch.jpg" ,
+        "reviews":"This dress works very well. It romantically "
 
     },
     {
         "id": "04",
-        "name": "BMW",
+        "name": "Xenon",
         "ratings" : "4.1",
-        "img":"https://i.ibb.co/SrLn2wm/images.jpg" 
+        "img":"https://i.ibb.co/SrLn2wm/images.jpg" ,
+        "reviews":"I love this dress. It's a great dress for a party"
 
     },
     {
         "id": "05",
         "name": "Robert",
         "ratings" : "4.7",
-        "img":"https://i.ibb.co/mB4ct2b/1071625.jpg" 
+        "img":"https://i.ibb.co/mB4ct2b/1071625.jpg" ,
+        "reviews":"one of my hobbies is skateboarding. "
 
     },
     {
         "id": "06",
         "name": "Easton ",
         "ratings" : "4.6",
-        "img":"https://i.ibb.co/D9jxfzF/images-1.jpg" 
+        "img":"https://i.ibb.co/D9jxfzF/images-1.jpg" ,
+        "reviews":"i use it once in a while when i'm in my ring."
 
     }
 ]

@@ -2,7 +2,7 @@ import React from "react";
 import './Login.css'
 const Login = () => {
   return (
-    <div>
+    <div className="text-center mt-5">
       <input
         className="form"
         type="text"
