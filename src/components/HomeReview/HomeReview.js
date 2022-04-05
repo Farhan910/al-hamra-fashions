@@ -1,27 +1,17 @@
-import { Button} from "react-bootstrap";
-import Card from "../Card/Card";
-import useProducts from "../Hooks/Hooks";
+import useReviews from "../Hooks/Hooks";
+import ReviewCard from "../ReviewCard/ReviewCard";
 
 import "./HomeReview.css";
 
 const HomeReview = () => {
-  const [products] = useProducts();
-  const { name, id, img } = products;
+  const [reviews] = useReviews();
+  
 
   return (
-    <div>
-      {products.slice (0, 3).map((product) => (
-        
-        <>
-          <>
-            <h2>name: {product.name}</h2>
-            <img src={product.img} alt="" />
-          </>
-          <h3>id: {product.id}</h3>
-        </>
+    <div className="home-review">
+      {reviews.slice(0,3).map((review) => (
+        <ReviewCard key={review.id} review={review}/>
       ))}
-
-      <h2>Review :{name} </h2>
     </div>
   );
 };

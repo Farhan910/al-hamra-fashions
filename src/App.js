@@ -7,6 +7,7 @@ import Login from './components/Login/Login';
 import Reviews from './components/Reviews/Reviews';
 import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path="/" element={<Home />}/>
         <Route path="/Reviews" element={<Reviews/>}/>
         <Route path="/Login" element={<Login/>}/>
+        <Route path="/Dashboard" element={<Dashboard/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </div>

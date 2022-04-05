@@ -1,26 +1,18 @@
-import React from 'react';
-import useProducts from '../Hooks/Hooks';
+import React from "react";
+import useReviews from "../Hooks/Hooks";
+import ReviewCard from "../ReviewCard/ReviewCard";
+import "./Reviews.css";
 
 const Reviews = () => {
-    const [products] = useProducts();
-    const {name,id,img} = products;
-    
-    return (
-        <div>
-            {products.map((product) => (
-                <>
-                <>
-                  <h2>name: {product.name}</h2>
-                  <img src={product.img} alt="" />
-                </>
-                <h3>id: {product.id}</h3>
-              </>
+  const [reviews] = useReviews();
 
-
-            ))
-            }
-        </div>
-    );
+  return (
+    <div className="review">
+      {reviews.map((review) => (
+        <ReviewCard key={review.id} review={review}/>
+      ))}
+    </div>
+  );
 };
 
 export default Reviews;
