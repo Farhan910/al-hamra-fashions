@@ -5,7 +5,6 @@ import HomeReview from "../HomeReview/HomeReview";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-
   const navigate = useNavigate();
   return (
     <div className="mb-5">
@@ -21,9 +20,14 @@ const Home = () => {
         </div>
       </div>
 
+      <div>
+        <h2 className="mt-5">Reviews</h2>
+      </div>
       <HomeReview></HomeReview>
 
-      <button onClick={() => navigate("/reviews")} className="btn btn-success">Reviews</button>
+      <button onClick={() => navigate("/reviews")} className="btn btn-success">
+        Reviews
+      </button>
     </div>
   );
 };

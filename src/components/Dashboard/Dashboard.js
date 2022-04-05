@@ -44,9 +44,7 @@ const Dashboard = () => {
           <XAxis dataKey="month" stroke="#8884d8" />
           <YAxis />
           <Tooltip />
-          <Legend
-            
-          />
+          <Legend />
           <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
           <Bar dataKey="investment" fill="#8884d8" barSize={30} />
           <Bar dataKey="revenue" fill="#8884d8" barSize={30} />

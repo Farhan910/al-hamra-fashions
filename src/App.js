@@ -8,6 +8,7 @@ import Reviews from './components/Reviews/Reviews';
 import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Dashboard from './components/Dashboard/Dashboard';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
       <Navbar></Navbar>
       <Routes>
       <Route path="/" element={<Home />}/>
-        <Route path="/Reviews" element={<Reviews/>}/>
-        <Route path="/Login" element={<Login/>}/>
-        <Route path="/Dashboard" element={<Dashboard/>}/>
+        <Route path="/reviews" element={<Reviews/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="/blogs" element={<Blogs/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </div>

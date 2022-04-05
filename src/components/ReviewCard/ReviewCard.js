@@ -1,7 +1,10 @@
+import { faStar, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import './ReviewCard.css'
 
 const ReviewCard = ({ review }) => {
-  const { name, id, img, ratings } = review;
+  const { name, id, img } = review;
   return (
     <div>
       <div className="card">
@@ -9,7 +12,13 @@ const ReviewCard = ({ review }) => {
         <h2>name: {name}</h2>
 
         <h3>id: {id}</h3>
-        <h4>Ratings : {ratings} stars</h4>
+        <h4>
+          <FontAwesomeIcon className="icon-color" icon={faStar} />
+          <FontAwesomeIcon className="icon-color" icon={faStar} />
+          <FontAwesomeIcon className="icon-color" icon={faStar} />
+          <FontAwesomeIcon className="icon-color" icon={faStar} />
+          <FontAwesomeIcon className="icon-color" icon={faStarHalfStroke} />
+        </h4>
       </div>
     </div>
   );
